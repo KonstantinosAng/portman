@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> PortMan </title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="checker.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <form encType="multipart/form-data" class="contact_form" onSubmit="check()">
+        <h2 class="row"> Port Checker </h2>
+        <input type="text" name="ip" id="ip" class="ip row" value="" placeholder="IP address" required />
+        <input type="text" id="port" class="port row" value="" placeholder="Port" required />
+        <button id="button" class="btn2 row" type="submit" onclick="prevent(event)" value="Submit"> Check </button>
+        <div id="success" class="alert alert-success"> Port is open! </div>
+        <div id="failure" class="alert alert-danger"> Port is closed! </div>
+        <div id="error" class="alert alert-danger"></div>
+      </form>
+    </div>
+  </body>
+</html>

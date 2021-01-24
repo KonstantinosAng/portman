@@ -1,0 +1,19 @@
+{
+  "name": "portman",
+  "version": "1.0.0",
+  "description": "port scanner",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "electron ."
+  },
+  "author": "Konstantinos Angelopoulos <kwstantinos.agelopoulos@outlook.com> (https://github.com/KonstantinosAng)",
+  "license": "MIT",
+  "dependencies": {
+    "check-ip": "^1.1.1",
+    "electron": "^11.2.1",
+    "electron-squirrel-startup": "^1.0.0",
+    "is-port-reachable": "^3.0.0",
+    "portscanner": "^2.2.0"
+  }
+}
