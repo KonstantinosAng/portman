@@ -4,7 +4,6 @@
   "description": "port scanner",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js",
     "start": "electron ."
   },
   "author": "Konstantinos Angelopoulos <kwstantinos.agelopoulos@outlook.com> (https://github.com/KonstantinosAng)",
