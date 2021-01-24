@@ -25,3 +25,8 @@ Run the following to install the app:
 ```
 
 ```
+
+## Example
+<p align="center">
+  <img src="img/img1.png" /> 
+</p>
