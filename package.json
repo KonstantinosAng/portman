@@ -13,7 +13,6 @@
     "check-ip": "^1.1.1",
     "electron": "^11.2.1",
     "electron-squirrel-startup": "^1.0.0",
-    "is-port-reachable": "^3.0.0",
     "portscanner": "^2.2.0"
   }
 }
