@@ -18,13 +18,6 @@ Run the following code to test it:
 npm start
 
 ```
-## Installation
-
-Run the following to install the app:
-
-```
-
-```
 
 ## Example
 <p align="center">
