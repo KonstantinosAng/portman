@@ -1,6 +1,6 @@
 # Port checker application
 
-Simple lightweight application to check if a port is open on a given ip!
+Simple lightweight application to check if a port is open on a given ip, using [ElectronJS](https://www.electronjs.org/).
 
 ## Requirements
 Clone the repo, open a terminal in the repo's path and run the following code:
